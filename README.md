@@ -13,7 +13,7 @@ __F40_train_model__ - Script to train the F40 model. Based off of resulst from F
 
 __FVC/FVH/FVT_raster_predict__ - Scripts that ingest the source data and apply the FVC/FVH/FVT model to generate respective predicted rasters.
 
-___FVC/FVH/FVT_train_model__ - Scripts to train FVC/FVH/FVT models. 
+__FVC/FVH/FVT_train_model__ - Scripts to train FVC/FVH/FVT models. 
 
 __fuels_attributes_model_development__ - Script used to develop and test models for FVC/FVH/FVT.
 
