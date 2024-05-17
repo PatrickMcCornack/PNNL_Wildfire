@@ -1,5 +1,5 @@
 # PNNL_Wildfire
-Scripts from my work as a research associate working on a wildfire project at the Pacific Northwest National Lab. 
+Scripts from my work as a research associate working on developing models to update the fuels attributes and 40 Scott and Burgan Fire Behavior Fuel Models (F40) using updated disturbance data. 
 
 The term "fuels attributes" collectively refers to the LANDFIRE Fuel Vegetation Type (FVT), Fuel Vegetation Cover (FVC), and Fuel Vegetation Height (FVH) raster datasets. 
 
