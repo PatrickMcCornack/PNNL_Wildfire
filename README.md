@@ -7,6 +7,10 @@ __Background__: Up-to-date fuels data representing current vegetation conditions
 
 In previous years PNNL used a data-engineering approach to identify a set of rules that describe how Fuel Vegetation Type (FVT), Cover (FVC), and Height (FVH) change in response to disturbance and succession. These updated products, along with the LANDFIRE Zone and updated disturbance data, were then used in conjunction with the LANDFIRE Fuel Rules Database to develop an updated fuel models (F40) product. While the final F40 classification accuracy of these methods was generally high, with the misclassified areas being similar enough to have little impact on the modeled fire behavior, the method is labor and time intensive and tended to yield “many-to-one” rules. The aim of this work is to streamline the process of updating these products by developing machine learning models to learn the associations and apply the associations between the fuels products and disturbance data.  
 
+# __Scripts__
+
+-----
+
 __F40_sampling__: Script to generate sample point layer to be used to train F40 model. Utilizes Arcpy and therefore requires an ArcGIS license with Spatial Analyst to run. NOTE: This is neither up-to-date nor functional at the time. 
 
 __fuels_attributes_raster_eval__: Script to evaluate raster results. Explores accuracy metrics as well as misclassification distributions.
