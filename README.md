@@ -19,9 +19,7 @@ __fuels_modeling_wrapper__: Script to ultimately be used to update fuels data us
 
 __train_models__: The model training component of fuels_modeling_wrapper. Given paths to sample point shapefiles, trains and saves sklearn Histogram-based Gradient Boosting Classifier models for each FVT/FVC/FVH/F40. Includes functions to evalute model results by performing a train/test split on the sample points data.  
 
-__update_rasters__: The prediction component of fuels_modeling_wrapper. Given paths to raster inputs, generates predicted rasters as specified above. 
-
-__NOTE__: The bulk of the code in train_models and all of the code in update_rasters is redundant to fuels_modeling_wrapper. They are included here as reference while fuels_modeling_wrapper is under development.
+__NOTE__: Most of the code in train_models is redundant to fuels_modeling_wrapper. It additionally has code to quickly evaluate model performance by performing a train/test split on the sample points. 
 
 
 
