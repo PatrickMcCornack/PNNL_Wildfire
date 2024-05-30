@@ -17,11 +17,11 @@ __fuels_attributes_raster_eval__: Script to evaluate raster results. Explores ac
 
 __fuels_modeling_wrapper__: Script to ultimately be used to update fuels data using most recent disturbance data. Running the script will both train FVT/FVC/FVH/F40 models givens sample points and generate predicted rasters for each target given paths to input rasters. Predicted FVT is used as an input to predicting FVC/FVH, and predicted FVT/FVC/FVH are used as inputs to predicted F40. Alternatively, the user can specify trained models to be used to generate predicted rasters. 
 
-__train_models__: The model training component of fuels_modeling_wrapper. Given paths to sample point shapefiles, trains and saves sklearn Histogram-based Gradient Boosting Classifier models for each FVT/FVC/FVH/F40. 
+__train_models__: The model training component of fuels_modeling_wrapper. Given paths to sample point shapefiles, trains and saves sklearn Histogram-based Gradient Boosting Classifier models for each FVT/FVC/FVH/F40. Includes functions to evalute model results by performing a train/test split on the sample points data.  
 
 __update_rasters__: The prediction component of fuels_modeling_wrapper. Given paths to raster inputs, generates predicted rasters as specified above. 
 
-__NOTE__: The code for train_models and update_rasters are included in fuels_modeling_wrapper and therefore redundant. They will be removed from here when fuels_modeling_wrapper is finalized. 
+__NOTE__: The bulk of the code in train_models and all of the code in update_rasters is redundant to fuels_modeling_wrapper. They are included here as reference while fuels_modeling_wrapper is under development.
 
 
 
