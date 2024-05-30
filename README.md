@@ -11,7 +11,7 @@ In previous years PNNL used a data-engineering approach to identify a set of rul
 
 -----
 
-__F40_sampling__: Script to generate sample point layer to be used to train F40 model. Utilizes Arcpy and therefore requires an ArcGIS license with Spatial Analyst to run. NOTE: This is neither up-to-date nor functional at the time. 
+__F40_sampling__: Script to generate sample point layer to be used to train F40 model. Utilizes Arcpy and therefore requires an ArcGIS license with Spatial Analyst to run. NOTE: This is neither up-to-date nor functional at this time (5/30/2024). 
 
 __fuels_attributes_raster_eval__: Script to evaluate raster results. Explores accuracy metrics as well as misclassification distributions.
 
