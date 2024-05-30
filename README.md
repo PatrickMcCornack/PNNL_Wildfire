@@ -11,7 +11,7 @@ In previous years PNNL used a data-engineering approach to identify a set of rul
 
 -----
 
-__F40_sampling__: Script to generate sample point layer to be used to train F40 model. Utilizes Arcpy and therefore requires an ArcGIS license with Spatial Analyst to run. NOTE: This is neither up-to-date nor functional at the time. 
+__F40_sampling__: Script to generate sample point layer to be used to train F40 model. Utilizes Arcpy and therefore requires an ArcGIS license with Spatial Analyst to run. NOTE: This is neither up-to-date nor functional at this time (5/30/2024). 
 
 __fuels_attributes_raster_eval__: Script to evaluate raster results. Explores accuracy metrics as well as misclassification distributions.
 
@@ -19,7 +19,7 @@ __fuels_modeling_wrapper__: Script to ultimately be used to update fuels data us
 
 __train_models__: The model training component of fuels_modeling_wrapper. Given paths to sample point shapefiles, trains and saves sklearn Histogram-based Gradient Boosting Classifier models for each FVT/FVC/FVH/F40. Includes functions to evalute model results by performing a train/test split on the sample points data.  
 
-__NOTE__: Most of the code in train_models is redundant to fuels_modeling_wrapper. It additionally has code to quickly evaluate model performance by performing a train/test split on the sample points. 
+__NOTE__: Most of the code in train_models is redundant to fuels_modeling_wrapper. It is included here for the quick model assessment function. 
 
 
 
